@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/question_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ActivityQuestion">
+
+    <LinearLayout
+        style="@style/window"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/question_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/answeredCounter"
+                style="@style/text_content_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answered_counter"/>
+
+            <TextView
+                android:id="@+id/repsCounter"
+                style="@style/text_content_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/reps_counter" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/question_area"
+            style="@style/question_area_style">
+
+            <TextView
+                android:id="@+id/question"
+                style="@style/question_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+
+        <ListView
+            android:id="@+id/answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/answers_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/question_additional_actions_style">
+
+        <Button
+            android:id="@+id/reportError"
+            style="@style/question_additional_actions_icon_style"
+            android:background="@drawable/icon_error"
+            android:onClick="sendReport" />
+
+        <Button
+            android:id="@+id/shareOnMessenger"
+            style="@style/question_additional_actions_icon_style"
+            android:background="@drawable/icon_share"
+            android:onClick="shareOnMessenger" />
+    </LinearLayout>
+
+</RelativeLayout>

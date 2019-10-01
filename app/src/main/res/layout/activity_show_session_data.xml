@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/window"
+    tools:context=".activities.ShowSessionData">
+
+    <LinearLayout
+        android:id="@+id/session_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/session_test_name_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            style="@style/h1_style" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            style="@style/h3_style"
+            android:text="@string/remainig_questions_label" />
+
+        <TextView
+            android:id="@+id/reamining_questions_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            style="@style/text_content_style" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            style="@style/h3_style"
+            android:text="@string/answers_label" />
+
+        <TextView
+            android:id="@+id/answers_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            style="@style/text_content_style"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/pieChartView"
+            style="@style/session_chart_style"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/start_test_button"
+            style="@style/button_style"
+            android:onClick="startTest"
+            android:text="@string/button_start" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/start_test_button"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/reset_session_button"
+                style="@style/button_medium_style"
+                android:layout_marginEnd="@dimen/button_margin"
+                android:layout_marginRight="@dimen/button_margin"
+                android:text="@string/reset_session_button" />
+
+            <Button
+                android:id="@+id/settings_button"
+                style="@style/button_medium_style"
+                android:text="@string/button_session_settings" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

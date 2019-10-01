@@ -1,0 +1,47 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- FONTS -->
+    <dimen name="text_size_h1">40sp</dimen>
+    <dimen name="text_size_h2">30sp</dimen>
+    <dimen name="text_size_h3">24sp</dimen>
+    <dimen name="text_size_content">16sp</dimen>
+    <dimen name="text_size_alert">14sp</dimen>
+
+    <!-- MARGINS -->
+    <dimen name="h1_margin">16dp</dimen>
+    <dimen name="h2_margin">8dp</dimen>
+    <dimen name="h3_margin">8dp</dimen>
+    <dimen name="window_top_margin">20dp</dimen>
+    <dimen name="text_content_margin">12dp</dimen>
+    <dimen name="button_margin">12dp</dimen>
+    <dimen name="toolbar_margin">32dp</dimen>
+    <dimen name="test_list_marginTop">64dp</dimen>
+    <dimen name="test_list_marginBottom">48dp</dimen>
+    <dimen name="answers_list_margin">64dp</dimen>
+    <dimen name="main_chart_marginTop">64dp</dimen>
+    <dimen name="answer_margin">16dp</dimen>
+    <dimen name="toolbar_icon_margin">24dp</dimen>
+    <dimen name="session_chart_margin">16dp</dimen>
+
+    <!-- PADDINGS -->
+    <dimen name="window_padding">15dp</dimen>
+    <dimen name="button_padding">16dp</dimen>
+    <dimen name="question_additional_actions_padding">12dp</dimen>
+
+    <!-- SIZE -->
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="divider_height">3dp</dimen>
+    <dimen name="toolbar_icon_size">24dp</dimen>
+    <dimen name="main_chart_height">180dp</dimen>
+    <dimen name="session_chart_width">180dp</dimen>
+    <dimen name="session_chart_height">180dp</dimen>
+    <dimen name="question_area_height">148dp</dimen>
+    <dimen name="question_additional_actions_height">48dp</dimen>
+
+    <!-- OTHER -->
+    <dimen name="button_border_radius">4dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

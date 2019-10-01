@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_saved"
+        android:icon="@drawable/baseline_bookmarks_white_24"
+        android:title="@string/action_saved"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_donate"
+        android:title="@string/action_donate"/>
+
+    <item android:id="@+id/action_contact"
+        android:title="@string/action_contact" />
+
+</menu>

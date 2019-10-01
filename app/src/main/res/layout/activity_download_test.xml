@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/window"
+    tools:context=".activities.DownloadTestActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/download_toolbar"
+        style="@style/toolbar_style"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <TextView
+        android:id="@+id/test_chooser_title"
+        style="@style/h3_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/download_toolbar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/download_title" />
+
+    <ListView
+        android:id="@+id/listView"
+        style="@style/test_list_style"
+        android:layout_below="@id/test_chooser_title" />
+
+    <TextView
+        android:id="@+id/path_textView"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/text_content_style"/>
+
+</RelativeLayout>

@@ -1,0 +1,196 @@
+<resources>
+
+    <style name="myDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorForeground">@color/white</item>
+        <item name="android:windowBackground">@color/primary</item>
+    </style>
+
+    <style name="window">
+        <item name="android:background">@color/primary</item>
+        <item name="android:padding">@dimen/window_padding</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textSize">@dimen/text_size_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryDark</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+    </style>
+
+    <style name="button_medium_style" parent="button_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">@dimen/button_margin</item>
+    </style>
+
+    <style name="h1_style">
+        <item name="android:layout_marginTop">@dimen/window_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/h1_margin</item>
+        <item name="android:textSize">@dimen/text_size_h1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="h3_style">
+        <item name="android:layout_marginBottom">@dimen/h3_margin</item>
+        <item name="android:textSize">@dimen/text_size_h3</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_content_style">
+        <item name="android:layout_marginBottom">@dimen/text_content_margin</item>
+        <item name="android:textSize">@dimen/text_size_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="toolbar_style">
+        <item name="android:layout_marginBottom">@dimen/toolbar_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="test_list_style">
+        <item name="android:layout_marginTop">@dimen/test_list_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/test_list_marginBottom</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:dividerHeight">@dimen/divider_height</item>
+        <item name="android:divider">@drawable/divider_gradient</item>
+    </style>
+
+    <style name="test_name_style">
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textSize">@dimen/text_size_h2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/h2_margin</item>
+        <item name="android:layout_marginBottom">@dimen/h2_margin</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="delete_test_button_style">
+        <item name="android:layout_marginTop">@dimen/h2_margin</item>
+        <item name="android:layout_marginBottom">@dimen/h2_margin</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_h2</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="downloaded_test_list_style" parent="test_list_style">
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="main_chart_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/main_chart_height</item>
+        <item name="android:layout_marginTop">@dimen/main_chart_marginTop</item>
+    </style>
+
+    <style name="session_chart_style">
+        <item name="android:layout_width">@dimen/session_chart_width</item>
+        <item name="android:layout_height">@dimen/session_chart_height</item>
+        <item name="android:layout_marginTop">@dimen/session_chart_margin</item>
+        <item name="android:layout_marginBottom">@dimen/session_chart_margin</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="question_area_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/question_area_height</item>
+        <item name="android:layout_below">@id/question_info</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">false</item>
+    </style>
+
+    <style name="question_style">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_h2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="answer_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:textSize">@dimen/text_size_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryDark</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="answers_style">
+        <item name="android:layout_marginTop">@dimen/answers_list_margin</item>
+        <item name="android:layout_marginBottom">@dimen/answers_list_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/question_area</item>
+        <item name="android:dividerHeight">@dimen/answer_margin</item>
+        <item name="android:divider">@color/primary</item>
+    </style>
+
+    <style name="question_additional_actions_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/question_additional_actions_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/primaryDark</item>
+        <item name="android:paddingTop">@dimen/question_additional_actions_padding</item>
+        <item name="android:paddingRight">@dimen/window_padding</item>
+        <item name="android:paddingBottom">@dimen/question_additional_actions_padding</item>
+        <item name="android:paddingLeft">@dimen/window_padding</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="question_additional_actions_icon_style">
+        <item name="android:layout_width">@dimen/toolbar_icon_size</item>
+        <item name="android:layout_height">@dimen/toolbar_icon_size</item>
+        <item name="android:layout_marginLeft">@dimen/toolbar_icon_margin</item>
+    </style>
+
+    <style name="LogTheme" parent="FirebaseUI">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:colorForeground">@color/white</item>
+
+        <item name="colorControlNormal">@color/accent</item>
+        <item name="colorControlActivated">@color/accentDark</item>
+        <item name="colorControlHighlight">@color/green</item>
+        <item name="android:windowBackground">@color/primary</item>
+
+        <item name="android:textColorHint">@color/white</item>
+        <item name="colorError">@color/red</item>
+
+    </style>
+
+
+</resources>

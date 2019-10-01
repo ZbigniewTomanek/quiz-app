@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">Testownik</string>
+    <string name="greetings">Witaj!</string>
+    <string name="greetingsContent">Dziękujemy Ci za wybranie naszej aplikacji.\n\nUmożliwia ona pobieranie, zapisywanie oraz rozwiązywanie pomocnych dla Ciebie testów.\n\nNajpierw wybierz interesującą Ciebie uczelnie, wydział, a na koniec kierunek.</string>
+    <string name="startApp">Rozpocznij</string>
+    <string name="welcomeBack">Cześć!</string>
+    <string name="statsContent">Dotychczas odpowiedziałeś na %d pytań.\nPoniżej są statysytyki rozwiązanych pytań w poprzednim tygodniu.</string>
+    <string name="goodLuck">Powodzenia w dalszej nauce!</string>
+    <string name="goToTests">Rozwiązuj testy</string>
+
+    <!-- strings appearing in menu bar -->
+    <string name="action_download">Pobierz nowe testy</string>
+    <string name="action_settings">Rozwiń opcje</string>
+    <string name="action_saved">Pobrane testy</string>
+    <string name="action_search">Szukaj testu</string>
+    <string name="action_donate">Wspomóż nas!</string>
+    <string name="action_contact">Skontaktuj się z nami!</string>
+
+
+    <!-- strings appearing in question activity -->
+    <string name="answered_counter">Pozostało %d pytań</string>
+    <string name="reps_counter">Pozostało %d powtórzeń</string>
+    <string name="skip_question">Chcesz pominąć pytanie?</string>
+    <string name="click_back_to_exit">Naciśnij wstecz aby opuścić test</string>
+    <string name="congrats">Gratulacje! Rozwiązałeś cały test!</string>
+    <string name="exit_test">Zakończ</string>
+    <string name="info_about_image"> [Zobacz zdjęcie]</string>
+    <string name="no_image_for_question">Brak zdjęcia</string>
+    <string name="correct_answer">Dobrze</string>
+    <string name="wrong_answer">Źle</string>
+
+    <!-- strings appearing in displaytestmenuactivity -->
+    <string name="version_text">Wersja testu</string>
+    <string name="number_of_question_text">Liczba pytań</string>
+    <string name="authors_text">Autorzy</string>
+    <string name="download_button">Pobierz test</string>
+
+    <!-- strings appearing in testChooser -->
+    <string name="chooser_label_text">Twoje testy:</string>
+    <string name="empty_chooser_label_text">Brak pobranych testów :(</string>
+
+    <!-- strings appearing in downloadTest -->
+    <string name="download_title">Dostępne testy do pobrania</string>
+    <string name="add_database_alert">Masz własną bazę pytań? Chcesz się nią podzielić?\nMożesz nam ją wysłać na adres: shadow.tesseract.studio@gmail.com\n---------\nChcesz stworzyć zupełnie nową bazę pytań?\nZobacz kreator baz na naszym fanpage @ShadowTesseract</string>
+
+    <!-- strings appearing in showSessionData -->
+    <string name="session_statistics_title">Statystyki sesji:</string>
+    <string name="reset_session_button">Resetuj sesję</string>
+    <string name="answers_label">Odpowiedzi:</string>
+    <string name="remainig_questions_label">Liczba pytań do opanowania:</string>
+    <string name="button_session_settings">Ustawienia</string>
+    <string name="button_start">Rozwiązuj</string>
+    <string name="reset_session">Zresetowano sesję</string>
+    <string name="title_activity_image_dialog">ImageDialog</string>
+    <string name="not_opened_test">Nie rozwiązywałeś jeszcze tego testu</string>
+    <string name="session_stats">Udzieliłeś w tym teście łącznie %d odpowiedzi, z czego %d%% było poprawnych</string>
+
+    <!-- string appearing in popup image -->
+    <string name="popup_image">Image for question</string>
+
+    <!-- help strings -->
+    <string name="help_main">Żeby rozwiązywać test musisz najpierw go pobrać - umożliwia to zakładka pobierania.\n\nWszystkie Twoje pobrane testy są przechowywane lokalnie i dostępne pod ikoną dyskietki.\n\nDostęp do internetu wymagany jest tylko do pobierania testów z bazy\n\nAby zatwierdzić odpowiedź przesuń palcem w lewo. Niektóre pytania zawierają zdjęcia - aby je wyświetlić przesuń palcem w prawo.\n\nMiłego rozwiązywania :)</string>
+
+
+    <!-- general -->
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="error">Błąd wewnętrzy</string>
+    <string name="X_icon">❌</string>
+    <string name="acra_toast_text">Wystąpił błąd w działaniu aplikacji. Aplikacja uruchomi się ponownie. Wyślij raport do deweloperów. Dziękujemy.</string>
+
+    <!-- introduction -->
+    <string name="general_intro">Dziękujemy Ci za wybranie naszej aplikacji.\n\nUmożliwia ona pobieranie, zapisywanie oraz rozwiązywanie pomocnych dla Ciebie testów.\n\nDotknij przycisk, żeby przejść dalej.</string>
+    <string name="main_settings_intro">Dotknij przycisk, żeby przejść do ustawień i skonfigurować m.in. wibracje.</string>
+    <string name="download_intro">Dotknij przycisk, żeby pobrać test na swój telefon i rozpocząć naukę.</string>
+    <string name="session_stats_intro">Tutaj pojawią się Twoje statystyki z rozwiązywania tego testu.</string>
+    <string name="reset_intro">Dotknij ten przycisk, aby zresetować test i zacząć go rozwiązywać od nowa.</string>
+    <string name="settings_intro">Dotknij ten przycisk, aby zmienić ustawienia testu:\n- liczbę powtórzeń pytania\n- liczbę dodatkowych powtórzeń pytania w razie pomyłki</string>
+    <string name="toolbar_download">Tutaj możesz przejść do ekraniu pobierania testów. Jeżeli masz uwagi do aplikacji lub posiadasz inne testy to w rozwijanym menu (z prawej strony) jest opcja kontaktu z nami.</string>
+    <string name="toolbar_downloaded">Tutaj możesz przejść do ekranu z testami pobranymi przez Ciebie. Jeżeli masz uwagi do aplikacji lub posiadasz inne testy to w rozwijanym menu (z prawej strony) jest opcja kontaktu z nami.</string>
+    <string name="answered_counter_intro">Tutaj wyświetla się liczba pozostałych pytań.</string>
+    <string name="reps_counter_intro">Tutaj wyświetla się liczba pozostałych powtórzeń aktualnego pytania.</string>
+    <string name="question_intro">Tutaj wyświetla się treść pytania. Jeżeli jest za długie będziesz musiał je przewinąć.</string>
+    <string name="answers_intro">Tutaj wyświetla się lista odpowiedzi. Jeżeli jest ich za dużo, będzie dostępna opcja przewijania.\nNiektóre pytania mogą mieć wiele odpowiedzi - wtedy będzie możliwość wielokrotnego wyboru.</string>
+    <string name="image_intro">Jeżeli pytanie ma zdjęcie, możesz zobaczyć je przesuwając po ekranie palcem, z lewej do prawej strony. Zdjęcie możesz powiększyć za pomocą uszczypnięcia dwoma palcami, po powiększeniu możesz również dowolnie przesuwać kadr.</string>
+    <string name="check_intro">Aby sprawdzić swoją odpowiedź przesuń po ekranie palcem, z prawej do lewej strony.</string>
+    <string name="next_question_intro">Aby przejść do kolejnego pytania ponownie przesuń palcem po ekranie, z prawej do lewej strony.</string>
+    <string name="report_error_intro">Za pomocą tego przycisku możesz przesłać nam informacje o błędnej treści lub odpowiedzi pytania.</string>
+    <string name="share_intro">Za pomocą tego przycisku możesz podzielić się treścią pytania np. na messenger</string>
+
+    <!-- Setting -->
+    <string name="IS_VIBRATION_ON">IS_VIBRATION_ON</string>
+    <string name="logging_error">( ͡° ʖ̯ ͡°)</string>
+    <string name="title_activity_introduction">Introduction</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- Introduction -->
+    <string name="introduction_button">Do dzieła!</string>
+    <string name="introduction_message">Bardzo nam miło, że wybrałes naszą aplikację ❤\n</string>
+    <string name="introduction_message2">Czyżby zbliżała się sesja? By nie marnować czasu i rozpocząć paniczną naukę zaloguj się lub załóż konto!</string>
+    <string name="welcome">Witaj</string>
+
+    <!-- Auth -->
+    <!-- Common -->
+    <string name="fui_default_toolbar_title" translatable="false">@string/app_name</string>
+    <string name="fui_progress_dialog_loading" translation_description="Loading text in dialog">Ładowanie…</string>
+    <string name="fui_sign_in_default" translation_description="Button text to sign in">Zaloguj się</string>
+    <string name="fui_cancel" translation_description="Button text to cancel">Anuluj</string>
+    <string name="fui_continue" translation_description="Button text to continue">Kontynuuj</string>
+
+    <!-- Auth method picker -->
+    <string name="fui_sign_in_with_google" translation_description="Sign in button text">Zaloguj się przez Google</string>
+    <string name="fui_sign_in_with_facebook" translation_description="Sign in button text">Zaloguj się przez Facebook</string>
+    <string name="fui_sign_in_with_twitter" translation_description="Sign in button text">Zaloguj się przez Twitter</string>
+    <string name="fui_sign_in_with_github" translation_description="Sign in button text">Zaloguj się przez GitHub</string>
+    <string name="fui_sign_in_with_email" translation_description="Sign in button text">Zaloguj się przez email</string>
+    <string name="fui_sign_in_with_phone" translation_description="Sign in button text">Zaloguj się przez phone</string>
+    <string name="fui_sign_in_anonymously" translation_description="Continue as guest">Kontynuuj jako gość</string>
+
+    <!-- Email common-->
+    <string name="fui_next_default" translation_description="Button text to continue">Dalej</string>
+    <string name="fui_email_hint" translation_description="Hint in email input field">Email</string>
+    <string name="fui_phone_hint" translation_description="Hint for phone input field">Numer telefonu</string>
+    <string name="fui_password_hint" translation_description="Hint for password input field">Hasło</string>
+    <string name="fui_required_field" translation_description="Inline error for required field">Pole jest wymagane!</string>
+    <string name="fui_invalid_email_address" translation_description="Inline error for invalid email address">Niepoprawny adres email</string>
+    <string name="fui_missing_email_address" translation_description="Inline error for empty email address in input field">Aby kontynuuować podaj adres email</string>
+    <string name="fui_progress_dialog_checking_accounts" translation_description="Progress dialog text while checking for existing accounts">Sprawdzanie czy konto nie istnieje…</string>
+
+    <!-- Email sign up -->
+    <string name="fui_title_register_email" translation_description="Title for signup form">Zarejestruj się</string>
+    <string name="fui_name_hint" translation_description="Hint for last name input field">Imię i nazwisko</string>
+    <string name="fui_button_text_save" translation_description="Button text to save input form">Zapisz</string>
+    <string name="fui_progress_dialog_signing_up" translation_description="Dialog text while waiting for server's signup response">Rejestracja…</string>
+    <plurals name="fui_error_weak_password" translation_description="Inline error for weak password">
+        <item quantity="one" translation_description="Inline error for weak password">Za słabe hasło. Użyj przynajmniej %1$d znaków, kombinacji liter i cyfr</item>
+        <item quantity="other" translation_description="Inline error for weak password">Za słabe hasło. Użyj przynajmniej %1$d znaków, kombinacji liter i cyfr</item>
+    </plurals>
+    <string name="fui_email_account_creation_error" translation_description="Inline error for signup failure">Rejestracja nie powiodła się</string>
+
+    <!-- Idp/Email welcome back -->
+    <string name="fui_title_welcome_back_idp_prompt" translatable="false">@string/fui_sign_in_default</string>
+    <string name="fui_title_welcome_back_password_prompt" translatable="false">@string/fui_sign_in_default</string>
+    <string name="fui_welcome_back_idp_header" translation_description="Inline subtitle to users whose signup was interrupted since an existing account was detected">Masz już konto</string>
+    <string name="fui_welcome_back_email_header" translation_description="Message for returning users">Witaj ponownie!</string>
+    <string name="fui_welcome_back_email_link_header" translation_description="Message for returning users">Masz już konto\n</string>
+    <string name="fui_progress_dialog_signing_in" translation_description="Progress dialog text">Logowanie…</string>
+    <string name="fui_trouble_signing_in" translation_description="Link leading to forgot password flow">Problem z zalogowaniem?</string>
+
+    <!-- Password recovery -->
+    <string name="fui_title_recover_password_activity" translation_description="Recover password screen title">Odzyskaj hasło</string>
+    <string name="fui_title_confirm_recover_password" translation_description="Password recovery confirmation message">Sprawdź swój email</string>
+    <string name="fui_password_recovery_body" translation_description="Password recovery message body">Uzyskaj instrukcje na email jak odzyskać hasło</string>
+    <string name="fui_button_text_send" translation_description="Button text to send recovery email">Wyślij</string>
+    <string name="fui_confirm_recovery_body" translation_description="Alert dialog displayed after password recovery email is sent">Postępuj zgodnie z instrukcjami wysłanymi do %1$s aby odzyskać hasło.</string>
+    <string name="fui_progress_dialog_sending" translation_description="Progress dialog while password recovery email or email link is being sent">Wysyłanie…</string>
+    <string name="fui_error_email_does_not_exist" translation_description="Inline error when user attempt signin with invalid account">Adres email nie pasuje do żadnego konta</string>
+
+    <!-- Other error messages -->
+    <string name="fui_error_unknown" translation_description="General error messages for an unknown failure.">Wystąpił błąd</string>
+    <string name="fui_error_invalid_password" translation_description="Error message for when the user enters an invalid or wrong password.">Niepoprawne hasło</string>
+
+    <!-- Email Link Sign In -->
+    <string name="fui_email_link_header" translation_description="Email link sign in email sent header">Wysłano maila do logowania\n</string>
+    <string name="fui_email_link_email_sent" translation_description="Text to tell the user that the email has been sent">Email z dodatkowymi instrukcjami wysłano do %1$s. Sprawdź aby dokończyć.</string>
+    <string name="fui_email_link_trouble_getting_email_header" translation_description="Header that is displayed on the trouble signing in activity">Problem z otrzymaniem maila?</string>
+    <string name="fui_email_link_trouble_getting_possible_fixes" translation_description="A list of possible fixes for receiving the email">Spróbuj tych rozwiązań:\n\u2022 Sprawdź SPAM\n\u2022 Sprawdź połączenie internetowe\n\u2022 Sprawdź czy email jest poprawny\n\u2022 Sprawdź czy nie masz zapełnionej skrzynki odbiorczej\n</string>
+    <string name="fui_email_link_trouble_getting_email_resend_solution" translation_description="Prompt the user to resend the email if the listed fixes do not work">Jeżeli sposoby powyżej nie pomagają, wyślij ponowny email. Poprzedni stanie się nieaktywny!</string>
+    <string name="fui_email_link_resend" translation_description="Button text to resend">Wyślij ponownie</string>
+    <string name="fui_email_link_wrong_device_header" translation_description="Header shown when the user opens a link that was sent from a different device">Wykryto nowe urządzenie/przeglądarkę</string>
+    <string name="fui_email_link_wrong_device_message" translation_description="Message shown when the user opens a link that was sent from a different device">Spróbuj otworzyć link przy pomocy tego samego urządzenia, na którym zaczęto logowanie</string>
+    <string name="fui_email_link_invalid_link_header" translation_description="Header shown when the user opens a link that was sent from a different device">Nie można dokończyć logowania</string>
+    <string name="fui_email_link_invalid_link_message" translation_description="Message shown when the user opens a link that was sent from a different device">Niepoprawny kod</string>
+    <string name="fui_email_link_different_anonymous_user_header" translation_description="Header shown when the user opens a link but the underlying session has changed">Sesja zakończona</string>
+    <string name="fui_email_link_different_anonymous_user_message" translation_description="Message shown when the user opens a link but the underlying session has changed">Sesja wygasła</string>
+    <string name="fui_email_link_confirm_email_header" translation_description="Header shown when prompting the user to confirm their email to complete the sign in">Potwierdź email</string>
+    <string name="fui_email_link_confirm_email_message" translation_description="Message shown when prompting the user to confirm their email to finish the sign in flow">Potwierdź email, aby dokończyc logowanie</string>
+    <string name="fui_email_link_dismiss_button" translation_description="Dismiss button for the wrong device or invalid link dialog">Anuluj</string>
+
+    <!-- Phone number auth -->
+    <string name="fui_verify_phone_number_title" translation_description="Phone number entry form title">Podaj numer telefonu</string>
+    <string name="fui_invalid_phone_number" translation_description="Inline error when phone number entered is invalid">Podaj poprawny numer telefonu</string>
+    <string name="fui_enter_confirmation_code" translation_description="Phone number verification code entry form title">Podaj 6 cyfrowy kod, który Ci wysłaliśmy</string>
+    <string name="fui_resend_code_in" translation_description="Countdown timer text that the user needs to wait for before attempting to resend verification sms">Wyślij kod ponownie za 0:%02d</string>
+    <string name="fui_verify_your_phone_title" translation_description="Button text to complete phone number verification">Zweryfikuj numer telefonu</string>
+    <string name="fui_verifying" translation_description="Progress dialog text while phone number is being verified">Weryfikowanie…</string>
+    <string name="fui_incorrect_code_dialog_body" translation_description="Inline error when incorrect sms verification code is being used to verify">Zły kod. Spróbuj ponownie.</string>
+    <string name="fui_error_too_many_attempts" translation_description="Error message when the phone number has been used too many times">Ten numer telefonu użyto za wiele razy.</string>
+    <string name="fui_error_quota_exceeded" translation_description="Error message when the Firebase project's quota has been exceeded.">Wystąpił błąd</string>
+    <string name="fui_error_session_expired" translation_description="Error message when SMS confirmation code has expired.">Kod jest nieaktualny</string>
+    <string name="fui_sign_in_with_phone_number" translation_description="Label for phone number input form">Zaloguj się za pomocą numeru telefonu</string>
+    <string name="fui_auto_verified" translation_description="Popup informing the user that their phone number was automatically verified">Numer telefonu automatycznie zweryfikowany</string>
+    <string name="fui_resend_code" translation_description="Link text to resend verification sms">Wyślij kod ponownie</string>
+    <string name="fui_verify_phone_number" translation_description="Button text to submit confirmation code and complete phone verification">Zweryfikuj numer telefonu</string>
+    <string name="fui_continue_phone_login" translation_description="Button text to submit phone number and send sms">Kontynuuj</string>
+</resources>

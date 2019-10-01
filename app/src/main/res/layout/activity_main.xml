@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main_activity_view"
+    android:layout_height="match_parent"
+    style="@style/window"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/welcomeBack"
+            style="@style/h1_style" />
+
+        <TextView
+            android:id="@+id/statsSummaryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/statsContent"
+            style="@style/text_content_style"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/goodLuck"
+            style="@style/h3_style"/>
+
+        <LinearLayout
+            android:id="@+id/pieChartView"
+            android:layout_gravity="center"
+            style="@style/main_chart_style"
+            android:orientation="vertical"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/goToTests"
+        android:layout_alignParentBottom="true"
+        android:onClick="startLearningChooserScreen"
+        style="@style/button_style"
+        android:text="@string/goToTests" />
+
+    <Button
+        android:id="@+id/showSettingsButton"
+        android:layout_width="@dimen/toolbar_icon_size"
+        android:layout_height="@dimen/toolbar_icon_size"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/icon_settings"
+        android:onClick="showSettings" />
+
+</RelativeLayout>
